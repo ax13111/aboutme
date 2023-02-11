@@ -1,4 +1,5 @@
 # aboutme
+
 import time
 import sys
 import numpy as np
@@ -6,11 +7,13 @@ import matplotlib.pyplot as plt
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import pyautogui as pag
+
 def print_slow(str):
     for letter in str:
         sys.stdout.write(letter)
         sys.stdout.flush()
         time.sleep(0.03)
+
 
 class JosephSun:
     def info(self,x):
